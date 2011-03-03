@@ -1,2 +1,5 @@
 .rvmrc
+*.gem
+.yardoc
+doc
 
