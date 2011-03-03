@@ -17,7 +17,7 @@ The latest source from GitHub:
 
     git clone https://github.com/slavach/hash-access.git
 
-The older version from gem:
+An older version from gem:
 
     gem install hash-access
 
@@ -28,7 +28,7 @@ You have to install rspec gem if you wish to run the tests.
 
 To invoke tests - run `rake spec` or simply `rake`.
 
-## Usage example
+## Usage Example
 
     require 'hash_access'
     include HashAccess
