@@ -30,7 +30,7 @@ To invoke tests - run `rake spec` or simply `rake`.
 
 ## Usage example
 
-    require 'hash_access.rb'
+    require 'hash_access'
     include HashAccess
 
     h = {}
