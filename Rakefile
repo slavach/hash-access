@@ -12,7 +12,7 @@ require File.dirname(__FILE__) + "/lib/hash_access/version.rb"
 
 task :default => [ :spec ]
 
-CLEAN.include(%w[ pkg doc .yardoc ])
+CLEAN.include(%w[ pkg doc .yardoc hash-access-*.gem ])
 
 desc 'Run RSpec examples'
 RSpec::Core::RakeTask.new :spec do |t|
