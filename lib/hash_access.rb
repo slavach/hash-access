@@ -1,6 +1,6 @@
-module HashAccess # :nodoc:
-  VERSION = '0.3.0'
+require 'hash_access/version'
 
+module HashAccess # :nodoc:
   # Extends the Hash class with the access_by_methods method.
   def self.included(base)
     Hash.send :include, HashAccess::InstanceMethods
