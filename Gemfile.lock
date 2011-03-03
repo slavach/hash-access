@@ -1,7 +1,9 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    BlueCloth (1.0.1)
     diff-lcs (1.1.2)
+    rdoc (3.5.3)
     rspec (2.5.0)
       rspec-core (~> 2.5.0)
       rspec-expectations (~> 2.5.0)
@@ -10,9 +12,13 @@ GEM
     rspec-expectations (2.5.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.5.0)
+    yard (0.6.4)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  BlueCloth
+  rdoc
   rspec
+  yard

@@ -2,7 +2,10 @@
 
 source "http://rubygems.org"
 
-group :test do
+group :development, :test do
   gem 'rspec'
+  gem 'rdoc'
+  gem 'yard'
+  gem 'BlueCloth'
 end
 
