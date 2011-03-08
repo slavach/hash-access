@@ -14,7 +14,7 @@ instead of:
 
 ## Installation
 
-Hash access is available as the gem hash-access.
+HashAccess is available as the gem hash-access.
 
     gem install hash-access
 
