@@ -27,7 +27,7 @@ end
 
 desc "Push the gem to rubygems.org"
 task :push do
-  system "gem push hash-access-#{HashAccess::VERSION}"
+  system "gem push hash-access-#{HashAccess::VERSION}.gem"
 end
 
 desc "Generate documentation"
