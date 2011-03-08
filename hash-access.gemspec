@@ -15,7 +15,7 @@ spec = Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = 'hash-access'
 
-  s.files = %w[ README.md LICENSE Rakefile ] + Dir.glob("{lib,spec}/*")
+  s.files = %w[ README.md LICENSE Rakefile ] + Dir.glob("{lib,lib/hash_access,spec}/*")
   s.require_paths = %w[ lib ]
 
   s.has_rdoc = true
